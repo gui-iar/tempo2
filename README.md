@@ -181,7 +181,7 @@ IAR_SNAP_v1: 25
 PULSARSOFTWARE_DIR=/opt/pulsar/ 
 
 cd $PULSARSOFTWARE_DIR/tempo2
-
+./bootstrap
 ./configure F77=gfortran --prefix=$PULSARSOFTWARE_DIR
 
 make
