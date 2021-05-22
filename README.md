@@ -177,7 +177,7 @@ IAR_ROACH_v1: 24
 IAR_SNAP_v1: 25
 
 #Now build tempo2
-
+PULSARSOFTWARE_DIR=/opt/pulsar/ 
 cd $PULSARSOFTWARE_DIR/tempo2
 
 ./configure F77=gfortran --prefix=$PULSARSOFTWARE_DIR
