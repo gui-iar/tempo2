@@ -154,3 +154,33 @@ and reconfigure.
 Please submit bug reports here: https://bitbucket.org/psrsoft/tempo2/issues/new
 
 Note that it is very helpful if you can upload a small example demonstrating the bug!
+
+
+------------- IAR ----------------This data will be used by the .fil header file, from the .iar file
+
+Telescope ID,
+
+IAR-A1: 19, "IAR1", "A1", "m"
+
+IAR-A2: 20, "IAR2", "A2", "o",
+
+DSA-3: 24, "DSA3", "D3", "p",
+
+CLTC: 25, "CLTC", "CL", "q",
+
+Machine ID,
+
+RTL_Filterbank: 23
+
+IAR_ROACH_v1: 24
+
+IAR_SNAP_v1: 25
+
+#Now build tempo2
+cd $PULSARSOFTWARE_DIR/tempo2
+./configure F77=gfortran --prefix=$PULSARSOFTWARE_DIR
+make
+make install
+make plugins
+make plugins-install
+
