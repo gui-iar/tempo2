@@ -18,7 +18,6 @@ jb 8 y # z # this is used by srt
 vla c
 ncy f
 eff g
-jbdfb q
 wsrt i
 # jb42 i # This is used by wsrt now
 lofar t
@@ -27,7 +26,6 @@ lwa1 x
 srt z
 jbmk2 h
 jbmk3 j
-meerkat m
 gmrt r
 # eMerlin sites
 tabley k
@@ -35,7 +33,6 @@ darnhall l
 knockin k
 defford n
 # Other single char codes in observatories.dat
-lapalma p
 iar1 m
 iar2 o
 dsa3 p
