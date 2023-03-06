@@ -35,5 +35,7 @@ defford n
 # Other single char codes in observatories.dat
 iar1 m
 iar2 o
+iar1r r
+iar2r s
 dsa3 p
 cltc q
