@@ -198,5 +198,7 @@ make plugins
 
 make plugins-install
 
-For add IAR Obs edit all the files there... tempo2/T2runtime/observatory/
+For add IAR Obs edit all the files there... tempo2/T2runtime/observatory/ 
+
+aliases  observatories.dat
 
